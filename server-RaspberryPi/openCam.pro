@@ -1,8 +1,4 @@
-#-------------------------------------------------
-#
-# Project created by QtCreator 2017-05-28T21:36:47
-#
-#-------------------------------------------------
+
 TARGET = openCam
 CONFIG   += console c++11
 CONFIG   -= app_bundle qt
