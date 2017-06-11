@@ -4,7 +4,7 @@
 
 Find and change this line to your wifi IP  
 
-	tcp::endpoint(address::from_string("your raspberry wifi IP"), 2345)
+	tcp::endpoint(address::from_string("your raspberry pi wifi IP"), 2345)
 
 Find and change these two lines to your opencv haar cascade classifier directory:
 
