@@ -161,8 +161,8 @@ void MainWindow::vidRecord()
     ui->stopPB->setEnabled(true);
 
     std::stringstream fname;
-    fname<<"/Users/Peter/Desktop/video"<<idx<<".avi";
-
+    fname<<"video"<<idx<<".avi";
+    idx++;
     //outputVid.open(fname.str(), CV_FOURCC('M','J','P','G'), fps, cv::Size(frame.cols, frame.rows), true);
     while(!stopVid){
         cv::cvtColor(frame, frameBuff, CV_RGB2BGR);
