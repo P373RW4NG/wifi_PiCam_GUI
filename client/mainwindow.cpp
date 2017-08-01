@@ -63,7 +63,7 @@ void MainWindow::loop()
             }
             //*********** put your code here ***********
 #if(faceDet==1)
-            faceDetection();
+                faceDetection();
 #endif
             //******************************************
             cv::cvtColor(frame, frame, CV_BGR2RGB);
